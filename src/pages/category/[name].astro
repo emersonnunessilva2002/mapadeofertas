@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Posts from '../../components/Posts.astro';
+export function getStaticPaths() {
+  return [
+    { params: { name: "fones" }},
+    { params: { name: "notebooks" }},
+    { params: { name: "smartphones" }},
+  ];
+}
+const posts = import.meta.glob('../../content/posts/*.md', {
+    eager: true
+});
+
+const { name } = Astro.params;
+const postsCategory = Object.entries(posts)
+  .filter(([_, post]) => post.frontmatter.category === name)
+  .map(([_, post]) => post);
+
+---
+<Layout title=`Mapa de Ofertas | ${name}``>
+    <Header />
+ 
+  <main class="page">
+             <section class="path">
+  <a href="/">Inicio&nbsp/&nbsp</a>
+  <a>{name}</a>
+             </section>
+<Posts posts={postsCategory} />        
+</main>
+
+    
+</Layout>

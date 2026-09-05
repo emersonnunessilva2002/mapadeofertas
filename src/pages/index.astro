@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Posts from '../components/Posts.astro';
+
+const posts = Object.values(
+    import.meta.glob('../content/posts/*.md', {
+
+        eager: true
+    })
+);
+---
+<Layout>
+    <Header />
+<main class="page">
+  <h1>Últimas ofertas postadas!</h1>
+<Posts posts={posts} />
+</main>
+
+</Layout>
+
