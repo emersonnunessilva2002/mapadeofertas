@@ -19,5 +19,10 @@ const { title = 'Mapa de Ofertas' } = Astro.props;
 	</head>
 	<body>
 		<slot />
+		<script>
+  document.querySelector('#back-button')?.addEventListener('click', () => {
+    history.back();
+  });
+</script>
 	</body>
 </html>

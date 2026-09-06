@@ -1,0 +1,15 @@
+---
+import { Image } from 'astro:assets'
+const { post } = Astro.props;
+const { Content } = post;
+---
+
+<div class="flex w-full h-[140px] overflow-hidden rounded-md border border-gray-300">
+            <img src={post.frontmatter.image}  class="w-[180px] h-[140px] shrink-0 object-cover" />
+            <div class="bg-white rounded px-4">
+              <span class="text-green-700 text-sm hidden md:block">{post.frontmatter.category}</span>
+              <h2 class="md:mt-0 text-gray-800 font-semibold text-xl mb-2"><a href={`/posts/${post.frontmatter.slug}`}>
+                {post.frontmatter.title}
+              </a></h2>
+            </div>
+          </div>

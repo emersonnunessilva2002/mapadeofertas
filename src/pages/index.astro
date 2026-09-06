@@ -1,21 +1,41 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Posts from '../components/Posts.astro';
-
+import Navbar from '../components/navbar.astro';
+import MainPost  from '../components/main-post.astro';
+import PostsRecommended from '../components/posts-recommended.astro';
 const posts = Object.values(
     import.meta.glob('../content/posts/*.md', {
 
         eager: true
     })
 );
+const post = posts.find(
+  (post) => post.frontmatter.slug === 'dell-latitude-5420'
+);
 ---
 <Layout>
-    <Header />
-<main class="page">
-  <h1>Últimas ofertas postadas!</h1>
-<Posts posts={posts} />
-</main>
+  <Navbar />
 
+  <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <article class="mt-12">
+
+    <div class="flex flex-col xl:flex-row gap-12 xl:gap-20 mb-16">
+
+      <!-- Post principal -->
+      <section class="w-full xl:w-3/5">
+        <MainPost post={post}/>
+      </section>
+
+      <!-- Recomendações -->
+      <aside class=" flex flex-col gap-5 w-full xl:w-2/5" >
+        <h2 class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">Ofertas recomendadas</h2>
+
+        <PostsRecommended posts={posts} />
+      </aside>
+
+    </div>
+
+  </article>
+</main>
 </Layout>
 

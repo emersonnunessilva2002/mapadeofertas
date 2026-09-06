@@ -1,0 +1,18 @@
+---
+
+const { post } = Astro.props;
+
+---
+
+
+<section class="mb-4 lg:mb-0 p-4 lg:p-0 relative rounded block">
+          <img src={post.frontmatter.image} class="rounded-md object-cover w-full h-64">
+          <span class="text-green-700 text-sm hidden md:block mt-4">{post.frontmatter.category}</span>
+          <h1 class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">
+            {post.frontmatter.title}
+          </h1>
+         
+          <a href={`/posts/${post.frontmatter.slug}`} class=" text-lg inline-block px-5 py-2 mt-2 rounded-md bg-green-700 text-gray-100">
+            Abrir
+          </a>
+</section>

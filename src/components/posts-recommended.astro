@@ -1,0 +1,11 @@
+---
+import CardPost from "./card-post.astro";
+
+const { posts } = Astro.props;
+---
+
+<section>
+    {posts.map((post) => (
+        <CardPost post={post} />
+    ))}
+</section>

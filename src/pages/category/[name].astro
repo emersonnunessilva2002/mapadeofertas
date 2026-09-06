@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
-import Posts from '../../components/Posts.astro';
+import PostsList from '../../components/posts-list.astro';
+import Navbar from '../../components/navbar.astro';
 export function getStaticPaths() {
   return [
     { params: { name: "fones" }},
@@ -20,15 +20,8 @@ const postsCategory = Object.entries(posts)
 
 ---
 <Layout title=`Mapa de Ofertas | ${name}``>
-    <Header />
+    <Navbar />
  
-  <main class="page">
-             <section class="path">
-  <a href="/">Inicio&nbsp/&nbsp</a>
-  <a>{name}</a>
-             </section>
-<Posts posts={postsCategory} />        
-</main>
-
+<PostsList posts={postsCategory} />
     
 </Layout>

@@ -1,0 +1,37 @@
+---
+const pathname = Astro.url.pathname.replace(/\/$/, '');
+---
+
+
+<nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-6 px-8 bg-white shadow sm:items-baseline w-full">
+  <div class="mb-2 sm:mb-0 inner">
+
+    <a href="/" class="text-4xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Mapa de Ofertas</a><br>
+    <span class="text-xl text-grey-dark">As melhores ofertas aqui</span>
+
+  </div>
+
+  <div class="sm:mb-0 self-center">
+    <a href="/posts" 
+    class:list={{"text-green-700": pathname === "/posts"
+    }} 
+    class="text-xl no-underline text-black hover:text-blue-dark ml-2 px-1">Ofertas</a>
+    <a href="/category/fones" 
+    class:list={{"text-green-700": pathname === "/category/fones"
+    }} 
+    class="text-xl no-underline text-black hover:text-blue-dark ml-2 px-1">Fones</a>
+
+    <a href="/category/notebooks" 
+    class:list={{
+        "text-green-700": pathname === "/category/notebooks"
+    }}
+    class="text-xl no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Notebooks</a> 
+
+    <a href="/category/smartphones" 
+    class:list={{
+        "text-green-700": pathname === "/category/smartphones"
+    }}
+    class="text-xl no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Smartphones</a>
+
+  </div>
+</nav>
