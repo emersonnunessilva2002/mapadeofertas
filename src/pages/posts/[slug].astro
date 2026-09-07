@@ -30,14 +30,14 @@ if (!post) {
 const { Content } = post;
 ---
 
-<Layout title=`Mapa de Ofertas | ${slug}`> 
+<Layout title=`Mapa de Ofertas | ${slug}` description="Produto Eletrônico em oferta"> 
     <Navbar />
      
     <main class="flex flex-col gap-5 max-w-screen-lg mx-auto mt-10 p-10">   
         <article class="flex flex-col gap-5 mb-4 md:mb-0 w-full mx-auto relative">
            
 <ArrowLeft class="w-8 h-8 text-green-700" onclick="history.back()" cursor={'pointer'}/>
-   <div class="px-4 lg:px-0">
+   <div class="px-0">
           <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
             {post.frontmatter.title}
           </h2>
@@ -48,7 +48,7 @@ const { Content } = post;
             {post.frontmatter.category}
         </a>
         </div>
-        <img src={post.frontmatter.image}/>
+        <img src={post.frontmatter.image} alt={post.frontmatter.title} class="border"/>
         </article>
   <Content />
 </main>

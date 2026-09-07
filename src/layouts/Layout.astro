@@ -3,17 +3,19 @@ import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 
 
-const { title = 'Mapa de Ofertas' } = Astro.props;
+const { title = 'Mapa de Ofertas', description = 'As melhores ofertas aqui'} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<link rel="canonical" href={Astro.url} />
+        <meta name="robots" content="index, follow" />
 		<title>{title}</title>
 		<ClientRouter />
 	</head>

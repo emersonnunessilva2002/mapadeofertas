@@ -47,7 +47,7 @@ O cabo utilizado no modelo também possui construção voltada para reduzir emar
 
 A oferta da Shopee possui **7 variações**, portanto é importante verificar a opção selecionada antes de realizar a compra. Algumas versões do KZ EDX Pro são comercializadas com microfone e outras sem microfone. :contentReference[oaicite:8]{index=8}
 
-Além disso, a página da Shopee informa que se trata de um **produto internacional**, sujeito às condições de importação e possíveis impostos aplicáveis. :contentReference[oaicite:9]{index=9}
+Além disso, a página da Shopee informa que se trata de um **produto internacional**, sujeito às condições de importação e possíveis impostos aplicáveis.
 
 ## Vale a pena?
 

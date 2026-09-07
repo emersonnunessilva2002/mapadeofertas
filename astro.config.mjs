@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
     prefetch: true,
     image: {
-        domains: ['images.unsplash.com']
+        domains: ['']
     },
     vite: {
     plugins: [tailwindcss()],

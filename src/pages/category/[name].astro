@@ -19,7 +19,7 @@ const postsCategory = Object.entries(posts)
   .map(([_, post]) => post);
 
 ---
-<Layout title=`Mapa de Ofertas | ${name}``>
+<Layout title=`Mapa de Ofertas | ${name}` description=`Todas as ofertas de ${name}`>
     <Navbar />
  
 <PostsList posts={postsCategory} />

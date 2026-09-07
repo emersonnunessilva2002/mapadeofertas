@@ -3,6 +3,7 @@ title: "Top 10 melhores fones Bluetooth"
 description: "Os melhores fones Bluetooth para diferentes tipos de uso."
 date: "2026-09-04"
 category: "fones"
+image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m22tzz0333dwae.webp"
 type: "ranking"
 slug: "top10-fones-xiaomi"
 
