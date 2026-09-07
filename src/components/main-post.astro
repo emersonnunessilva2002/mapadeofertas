@@ -13,6 +13,7 @@ const { post } = Astro.props;
       src={post.frontmatter.image}
       alt={post.frontmatter.title}
       class="w-[500px] h-[400px] rounded-md object-cover"
+      fetchpriority="high"
     />
 
     <span class="text-green-700 text-sm hidden md:block mt-4">

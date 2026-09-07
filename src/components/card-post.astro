@@ -9,6 +9,7 @@ const { post } = Astro.props;
     alt={post.frontmatter.title}
     src={post.frontmatter.image}
     class="w-[180px] h-[140px] shrink-0 object-cover"
+    fetchpriority="high"
   />
   <div class="bg-white rounded px-4">
     <span class="text-green-700 text-sm hidden md:block"

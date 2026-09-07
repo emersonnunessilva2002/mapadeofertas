@@ -31,7 +31,6 @@ const { Content } = post;
 ---
 
 <Layout title=`Mapa de Ofertas | ${slug}` description="Produto Eletrônico em oferta"> 
-    <Navbar />
      
     <main class="flex flex-col gap-5 max-w-screen-lg mx-auto mt-10 p-10">   
         <article class="flex flex-col gap-5 mb-4 md:mb-0 w-full mx-auto relative">
@@ -48,7 +47,12 @@ const { Content } = post;
             {post.frontmatter.category}
         </a>
         </div>
-        <img src={post.frontmatter.image} alt={post.frontmatter.title} class="border"/>
+        <img 
+        src={post.frontmatter.image} 
+        alt={post.frontmatter.title} 
+        class="border"
+        fetchpriority="high"
+        />
         </article>
   <Content />
 </main>
