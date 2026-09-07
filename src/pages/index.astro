@@ -9,6 +9,7 @@ const posts = Object.values(
         eager: true
     })
 );
+
 const post = posts.find(
   (post) => post.frontmatter.slug === 'dell-latitude-5420'
 );
@@ -23,14 +24,14 @@ const post = posts.find(
 
       <!-- Post principal -->
       <section class="w-full xl:w-3/5">
-        <MainPost post={post}/>
+        <MainPost post={post ? post : [] }/>
       </section>
 
       <!-- Recomendações -->
       <aside class=" flex flex-col gap-5 w-full xl:w-2/5" >
         <h2 class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">Ofertas recomendadas</h2>
 
-        <PostsRecommended posts={posts} />
+        <PostsRecommended posts={posts ? posts : []} />
       </aside>
 
     </div>
