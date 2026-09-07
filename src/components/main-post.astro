@@ -27,6 +27,7 @@ const { post } = Astro.props;
     <a
       href={`/posts/${post.frontmatter.slug}`}
       class="text-lg inline-block px-5 py-2 mt-2 rounded-md bg-green-700 text-gray-100"
+      data-astro-prefetch="tap"
     >
       Abrir
     </a>

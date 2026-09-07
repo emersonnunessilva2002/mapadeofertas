@@ -4,9 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-    prefetch: true,
-    image: {
-        domains: ['']
+    prefetch: {
+      prefetchAll: false
     },
     vite: {
     plugins: [tailwindcss()],

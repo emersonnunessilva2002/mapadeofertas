@@ -9,14 +9,14 @@ const { post } = Astro.props;
     alt={post.frontmatter.title}
     src={post.frontmatter.image}
     class="w-[180px] h-[140px] shrink-0 object-cover"
-    fetchpriority="high"
+    fetchpriority="low"
   />
   <div class="bg-white rounded px-4">
     <span class="text-green-700 text-sm hidden md:block"
       >{post.frontmatter.category}</span
     >
     <h2 class="md:mt-0 text-gray-800 font-semibold text-xl mb-2">
-      <a href={`/posts/${post.frontmatter.slug}`}>
+      <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
         {post.frontmatter.title}
       </a>
     </h2>
