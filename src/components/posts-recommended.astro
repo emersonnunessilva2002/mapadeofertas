@@ -4,7 +4,8 @@ import CardPost from "./card-post.astro";
 const { posts } = Astro.props;
 ---
 
-<section>
+<section class="flex flex-row justify-center align-center gap-0 flex-wrap">
+    
     {posts.map((post) => (
         <CardPost post={post} />
     ))}

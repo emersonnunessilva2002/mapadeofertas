@@ -5,7 +5,7 @@ const { posts } = Astro.props;
 console.log(posts)
 ---
 
-<article class="flex flex-col gap-2 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8 mt-10" >
+<article class="flex flex-col gap-2 w-[100vw] min-h-[100vh] p-10 desktop:flex-row">
     {posts.map((post) => (
        <CardPost post={post} />
     ))}

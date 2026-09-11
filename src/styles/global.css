@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --breakpoint-desktop: 800px;
+  --breakpoint-desktop: 1200px;
 }
 * {
     box-sizing: border-box;

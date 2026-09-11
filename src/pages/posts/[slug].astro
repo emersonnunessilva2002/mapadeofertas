@@ -31,29 +31,25 @@ const { Content } = post;
 ---
 
 <Layout title=`Mapa de Ofertas | ${slug}` description="Produto Eletrônico em oferta"> 
-     
-    <main class="flex flex-col gap-5 max-w-screen-lg mx-auto mt-10 p-10">   
-        <article class="flex flex-col gap-5 mb-4 md:mb-0 w-full mx-auto relative">
-           
-<ArrowLeft class="w-8 h-8 text-green-700" onclick="history.back()" cursor={'pointer'}/>
-   <div class="px-0">
-          <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
+     <main class="flex flex-col gap-6 mt-15 p-4">
+     <article class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+          style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));">
+        <ArrowLeft class="w-8 h-8 text-green-700 absolute -top-15 left-0" onclick="history.back()" cursor={'pointer'} />
+        </div>
+        <img src={post.frontmatter.image} class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+          <a href=`/category/${post.frontmatter.category}`
+            class="px-4 py-1 bg-black text-green-700 inline-flex items-center justify-center mb-2">#{post.frontmatter.category}</a>
+          <h2 class="text-4xl font-semibold text-gray-100 leading-tight">
             {post.frontmatter.title}
           </h2>
-          <a 
-            href=`/category/${post.frontmatter.category}`
-            class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
-          >
-            {post.frontmatter.category}
-        </a>
-        </div>
-        <img 
-        src={post.frontmatter.image} 
-        alt={post.frontmatter.title} 
-        class="border"
-        fetchpriority="high"
-        />
-        </article>
-  <Content />
-</main>
+              <p class="font-semibold text-gray-200 text-sm">{post.frontmatter.description}</p>
+            </div>
+     </article>
+     <div class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative">
+     <Content />
+     </div>
+     </main>
+    
 </Layout>
