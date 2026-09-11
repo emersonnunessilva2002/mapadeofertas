@@ -31,7 +31,7 @@ const { Content } = post;
 ---
 
 <Layout title=`Mapa de Ofertas | ${slug}` description="Produto Eletrônico em oferta"> 
-     <main class="flex flex-col gap-6 mt-15 p-4">
+     <main class="flex flex-col gap-6 mt-15 p-10">
      <article class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative" style="height: 24em;">
         <div class="absolute left-0 bottom-0 w-full h-full z-10"
           style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));">
@@ -47,7 +47,7 @@ const { Content } = post;
               <p class="font-semibold text-gray-200 text-sm">{post.frontmatter.description}</p>
             </div>
      </article>
-     <div class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative">
+     <div class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative text-2xl font-[EB_Garamond] text-justify">
      <Content />
      </div>
      </main>
