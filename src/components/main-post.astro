@@ -4,18 +4,45 @@ const { post } = Astro.props;
 
 ---
 
-<section class="w-[500px] h-[600px] flex flex-col items-center justify-center bg-white m-auto mt-10 mb-10 p-8  rounded border-1 border-gray-300 px-10">
+
+
+<section
+  class="
+    w-full
+    max-w-[500px]
+    min-h-[600px]
+    flex
+    flex-col
+    items-center
+    justify-center
+    bg-white
+    m-auto
+    mt-10
+    mb-10
+    p-8
+    rounded
+    border
+    border-gray-300
+  "
+>
   <img
     src={post.frontmatter.image}
-    class=" w-[500px] object-cover"
+    class="w-full max-w-[500px] h-auto object-contain"
     alt=""
   />
+
   <div>
     <h1>
-      <a 
-      href={`/posts/${post.frontmatter.slug}`}
-      class="text-5xl font-medium text-gray-900">
-      {post.frontmatter.title}</a></h1>
-    <p class=" text-gray-500">{post.frontmatter.description}</p>
+      <a
+        href={`/posts/${post.frontmatter.slug}`}
+        class="text-5xl font-medium text-gray-900"
+      >
+        {post.frontmatter.title}
+      </a>
+    </h1>
+
+    <p class="text-gray-500">
+      {post.frontmatter.description}
+    </p>
   </div>
 </section>
