@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --breakpoint-desktop: 1200px;
+  --breakpoint-desktop: 746px;
 }
 * {
     box-sizing: border-box;
@@ -12,6 +12,6 @@
 html,
 	body {
         scroll-behavior: smooth;
-        font-family: 'Inter';
+        font-family: 'Valley Sans';
 	}
 

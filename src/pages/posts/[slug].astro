@@ -31,13 +31,13 @@ const { Content } = post;
 ---
 
 <Layout title=`Mapa de Ofertas | ${slug}` description="Produto Eletrônico em oferta"> 
-     <main class="flex flex-col gap-6 mt-15 p-10">
+     <main class="flex flex-col gap-15 mt-15 p-20">
      <article class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative" style="height: 24em;">
         <div class="absolute left-0 bottom-0 w-full h-full z-10"
           style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));">
         <ArrowLeft class="w-8 h-8 text-green-700 absolute -top-15 left-0" onclick="history.back()" cursor={'pointer'} />
         </div>
-        <img src={post.frontmatter.image} class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <img src={post.frontmatter.image} class="absolute left-0 top-0 w-full h-full z-0 object-cover object-top" />
         <div class="p-4 absolute bottom-0 left-0 z-20">
           <a href=`/category/${post.frontmatter.category}`
             class="px-4 py-1 bg-black text-green-700 inline-flex items-center justify-center mb-2">#{post.frontmatter.category}</a>
@@ -47,7 +47,7 @@ const { Content } = post;
               <p class="font-semibold text-gray-200 text-sm">{post.frontmatter.description}</p>
             </div>
      </article>
-     <div class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative text-2xl font-[EB_Garamond] text-justify">
+     <div class="mb-4 md:mb-0 w-full max-w-[800px] mx-auto relative text-2xl text-justify leading-10">
      <Content />
      </div>
      </main>

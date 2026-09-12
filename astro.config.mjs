@@ -2,12 +2,14 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from "@tailwindcss/vite";
 
+
 // https://astro.build/config
 export default defineConfig({
-    prefetch: {
-      prefetchAll: false
-    },
-    vite: {
-    plugins: [tailwindcss()],
+  prefetch: {
+    prefetchAll: false
   },
+
+  vite: {
+  plugins: [tailwindcss()],
+},
 });

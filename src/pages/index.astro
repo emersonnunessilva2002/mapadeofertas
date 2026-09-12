@@ -4,6 +4,7 @@ import Navbar from '../components/navbar.astro';
 import Footer from '../components/footer.astro';
 import MainPost  from '../components/main-post.astro';
 import PostsRecommended from '../components/posts-recommended.astro';
+import PostsList from "../components/posts-list.astro"
 const posts = Object.values(
     import.meta.glob('../content/posts/*.md', {
 
@@ -16,26 +17,12 @@ const post = posts.find(
 );
 ---
 <Layout>
-  <main class="w-full max-w-8xl mx-auto px-4 sm:px-10 lg:px-8 h-full">
-  <article class="mt-12">
+      <MainPost post={post}/>
+      <PostsList posts={posts}/>
 
-    <div class="flex flex-col xl:flex-row gap-12 xl:gap-20 mb-16">
-
-      <!-- Post principal -->
-      <section class="w-full xl:w-3/5">
-        <MainPost post={post ? post : [] }/>
-      </section>
-
-      <!-- Recomendações -->
-      <aside class="flex flex-col align-center justify-center gap-4 w-full xl:w-2/5" >
-        <h2 class="text-gray-800 text-4xl font-bold m-auto">Ofertas recomendadas</h2>
-
-        <PostsRecommended posts={posts ? posts : []} />
-      </aside>
-
-    </div>
-
-  </article>
-</main>
 </Layout>
+
+
+
+
 

@@ -22,3 +22,26 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+
+ <main class="w-full max-w-8xl mx-auto px-4 sm:px-10 lg:px-8 h-full">
+  <article class="mt-12">
+
+    <div class="flex flex-col xl:flex-row gap-12 xl:gap-20 mb-16">
+
+      <!-- Post principal -->
+      <section class="w-full xl:w-3/5">
+        <MainPost post={post ? post : [] }/>
+      </section>
+
+      <!-- Recomendações -->
+      <aside class="flex flex-col align-center justify-center gap-8 w-full xl:w-2/5" >
+        <h2 class="text-gray-800 text-6xl font-bold m-auto">Ofertas recomendadas</h2>
+
+        <PostsRecommended posts={posts ? posts : []} />
+      </aside>
+
+    </div>
+
+  </article>
+</main>

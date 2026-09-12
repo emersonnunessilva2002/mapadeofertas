@@ -1,20 +1,20 @@
 ---
+import Logo from "../assets/logotipo.png"
+
 const pathname = Astro.url.pathname.replace(/\/$/, "");
 ---
 
 <nav
-  class="flex flex-col gap-2 text-center content-center font-semibold desktop:flex-row desktop:text-left desktop:justify-between py-6 px-8 bg-white shadow desktop:items-center w-full"
+  class="flex flex-col gap-4 w-full content-center font-semibold desktop:flex-row desktop:text-left desktop:justify-between py-6 px-8 bg-white shadow desktop:items-center"
 >
-  <div class="flex flex-col gap-0.5 mb-2 desktop:mb-0 inner">
-    <h1
-      class="text-3xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold"
-    >
-      <a href="/">Mapa de Ofertas</a>
-    </h1><br />
+  <div class="flex flex-col mb-2 items-center desktop:mb-0 inner desktop:items-start">
+     <img src={Logo.src} 
+       class=" h-[8rem] w-[15rem] object-cover"
+     />
     <span class="text-xl text-grey-dark">As melhores ofertas aqui</span>
   </div>
 
-  <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 border-b-2  border-gray-300 p-2">
+  <div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
      <a
       href="/"
       class:list={{ "text-green-700": pathname === ""}}

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PostsList from '../../components/posts-list.astro';
 import Navbar from '../../components/navbar.astro';
+import PostsRecommended from '../../components/posts-recommended.astro';
 
 const posts = import.meta.glob('../../content/posts/*.md', {
   eager: true
@@ -11,5 +12,5 @@ const postsList = Object.entries(posts)
   .map(([_, post]) => post);
 ---
 <Layout title="Mapa de Ofertas | Ofertas" description="Todas as ofertas de produtos Eletrônicos" >
-    <PostsList posts={postsList} />   
+    <PostsRecommended posts={postsList} />   
 </Layout>

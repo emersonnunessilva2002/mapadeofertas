@@ -1,0 +1,110 @@
+---
+import Logo from "../assets/logotipo.png";
+import { Menu } from "@lucide/astro";
+
+const pathname = Astro.url.pathname.replace(/\/$/, "");
+---
+
+<nav class="relative w-full p-4 flex flex-col justify-around items-center border-b-1 border-gray-300 desktop:flex-row">
+
+  <!-- Logo -->
+  <div class="flex flex-col justify-center items-center">
+    <img
+      src={Logo.src}
+      class="h-36 w-auto object-contain desktop:h-24"
+    />
+
+    <span class="text-xl">As melhores ofertas aqui</span>
+  </div>
+
+
+ 
+  <input
+    type="checkbox"
+    id="menu-toggle"
+    class="peer sr-only"
+  />
+
+     <label
+    for="menu-toggle"
+    class="absolute right-4 top-8 cursor-pointer desktop:hidden"
+  >
+    <Menu size={40} />
+  </label>
+
+  <ul
+    class="
+      bg-white
+      z-50
+      hidden
+      peer-checked:flex
+      flex-col
+      items-center
+      gap-4
+      w-full
+      mt-4
+      text-xl
+      p-4
+      border-t-1
+      border-gray-300
+      desktop:mt-0
+      desktop:w-auto
+      desktop:flex
+      desktop:flex-row
+      desktop:gap-6
+      desktop:-translate-y-0
+      desktop:border-t-0
+    "
+  >
+    <li>
+      <a 
+      href="/"
+      class="block px-2 py-1 rounded-b-sm"
+       class:list={{ "border-b-4 border-green-700": pathname === ""}}
+      >    
+        Home
+      </a>
+    </li>
+
+    <li>
+      <a 
+      href="/posts" 
+      class="block px-2 py-1 rounded-b-sm"
+      class:list={{ "border-b-4 border-green-700": pathname === "/posts"}}
+      >  
+        Ofertas
+      </a>
+    </li>
+
+    <li>
+      <a 
+      href="/category/smartphones" 
+      class="block px-2 py-1 rounded-b-sm"
+      class:list={{ "border-b-4 border-green-700": pathname === "/category/smartphones"}}
+      >
+        Smartphones
+      </a>
+    </li>
+    <li>
+      <a 
+      href="/category/fones" 
+      class="block px-2 py-1 rounded-b-sm"
+      class:list={{ "border-b-4 border-green-700": pathname === "/category/fones"}}
+      >
+        Fones
+      </a>
+    </li>
+    <li>
+      <a 
+      href="/category/notebooks" 
+      class="block px-2 py-1 rounded-b-sm"
+      class:list={{ "border-b-4 border-green-700": pathname === "/category/notebooks"}}
+      >
+        Notebooks
+      </a>
+    </li>
+  </ul>
+
+  
+
+</nav>

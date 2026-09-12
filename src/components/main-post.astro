@@ -4,34 +4,18 @@ const { post } = Astro.props;
 
 ---
 
-
-<section class="flex justify-center align-center mb-4 lg:mb-0 p-0 lg: relative w-auto">
-
-  <div class="w-[800px] p-4 rounded shadow-xl">
-
-    <img
-      src={post.frontmatter.image}
-      alt={post.frontmatter.title}
-      class="rounded-md object-cover m-auto"
-      fetchpriority="high"
-    />
-
-    <span class="text-green-700 text-lg hidden md:block mt-4">
-      #{post.frontmatter.category}
-    </span>
-
-    <h1 class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">
-      {post.frontmatter.title}
-    </h1>
-
-    <a
+<section class="w-[500px] h-[600px] flex flex-col items-center justify-center bg-white m-auto mt-10 mb-10 p-8  rounded border-1 border-gray-300 px-10">
+  <img
+    src={post.frontmatter.image}
+    class=" w-[500px] object-cover"
+    alt=""
+  />
+  <div>
+    <h1>
+      <a 
       href={`/posts/${post.frontmatter.slug}`}
-      class="text-lg inline-block px-5 py-2 mt-2 rounded-md bg-green-700 text-gray-100"
-      data-astro-prefetch="tap"
-    >
-      Abrir
-    </a>
-
+      class="text-5xl font-medium text-gray-900">
+      {post.frontmatter.title}</a></h1>
+    <p class=" text-gray-500">{post.frontmatter.description}</p>
   </div>
-
 </section>
