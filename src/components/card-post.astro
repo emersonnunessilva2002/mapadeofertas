@@ -2,24 +2,24 @@
 const { post } = Astro.props;
 ---
 
-<div class="flex flex-row justify-center items-start border-b-1 border-gray-300">
+<div class="flex flex-row justify-center items-start border-gray-300 border">
       
-        <div class="relative h-[75%] w-full overflow-hidden">
+        <div class="relative h-full w-[50%] overflow-hidden">
           <img
             src={post.frontmatter.image}
             alt={post.frontmatter.title}
             width={1000}
             height={800}
-            class="h-full w-full object-cover"
+            class="h-full w-full object-contain"
             fetchpriority="high"
           />
         </div>
 
-        <div class="flex flex-col justify-center items-start p-4 rounded h-[25%]">
+        <div class="flex flex-col justify-start items-start p-4 h-full text-[0.8rem] mobile2:text-[1rem] mobile3:text-[1.3rem] mobile4:text-[0.8rem] desktop:text-[1.1rem]">
         
-        <span class="text-green-700 text-lg"
+        <span class="text-green-700"
       >#{post.frontmatter.category}</span>
-        <h2 class="md:mt-0 text-gray-800 font-semibold text-3xl mb-2">
+        <h2 class="text-ellipsis text-gray-800 font-bold">
       <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
         {post.frontmatter.title}
       </a>

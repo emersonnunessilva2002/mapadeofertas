@@ -5,7 +5,7 @@ import { Menu } from "@lucide/astro";
 const pathname = Astro.url.pathname.replace(/\/$/, "");
 ---
 
-<nav class="relative w-full p-4 flex flex-col justify-around items-center border-gray-300 desktop:flex-row border-gray-300 desktop:border-b-1">
+<nav class="relative w-full p-4 flex flex-col justify-around items-center border-gray-300 desktop:flex-row border-gray-300 border-b-1">
 
   <!-- Logo -->
   <div class="flex flex-col justify-center items-center">
@@ -14,7 +14,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       class="pointer-events-none h-36 w-auto object-contain desktop:h-24"
     />
 
-    <span class="text-xl">As melhores ofertas aqui</span>
+    <span class="text-[0.8rem]">As melhores ofertas aqui</span>
   </div>
 
 
@@ -40,13 +40,13 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       hidden
       peer-checked:flex
       flex-col
-      items-end
+      justify-center
+      items-center
       gap-4
       w-[100vw]
       mt-4
-      text-xl
+      text-[1rem]
       p-4
-      border-t-1
       border-gray-300
       desktop:mt-0
       desktop:w-auto
@@ -54,10 +54,9 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       desktop:flex-row
       desktop:gap-6
       desktop:-translate-y-0
-      desktop:border-t-0
     "
   >
-    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
+    <li >
       <a 
       href="/"
       class="block px-2 py-1"
@@ -67,7 +66,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       </a>
     </li>
 
-    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
+    <li>
       <a 
       href="/posts" 
       class="block px-2 py-1"
@@ -77,7 +76,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       </a>
     </li>
 
-    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
+    <li>
       <a 
       href="/category/smartphones" 
       class="block px-2 py-1"
@@ -86,7 +85,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
         Smartphones
       </a>
     </li>
-    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
+    <li>
       <a 
       href="/category/fones" 
       class="block px-2 py-1"
@@ -95,7 +94,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
         Fones
       </a>
     </li>
-    <li class="w-[100vw] flex flex-row justify-end pb-4 border-gray-300 desktop:block desktop:w-auto desktop:pb-0">
+    <li>
       <a 
       href="/category/notebooks" 
       class="block px-2 py-1"

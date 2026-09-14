@@ -2,7 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  --breakpoint-desktop: 746px;
+  --breakpoint-mobile2: 500px;
+    --breakpoint-mobile3: 600px;
+    --breakpoint-mobile4: 700px;
+     --breakpoint-desktop: 960px; 
+    --breakpoint-desktop2: 1350px;
 }
 * {
     box-sizing: border-box;
