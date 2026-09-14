@@ -17,20 +17,21 @@ const { post } = Astro.props;
     m-auto
     mt-10
     mb-10
-    p-8
     border-1
     border-gray-300
-    desktop:max-w-[500px]
-    desktop:min-h-[600px]
-  "
+    desktop:max-w-[800px]
+    desktop:flex-row
+    desktop:h-[50vh]
+    "
 >
   <img
     src={post.frontmatter.image}
-    class="w-full max-w-[500px] h-auto object-contain"
+    width={500}
+    class=" h-[50vh] object-contain p-2"
     alt=""
   />
 
-  <div class="flex flex-col gap-2">
+  <div class=" w-full h-full flex flex-col justify-start items-center gap-2 p-12 text-left">
     <h1>
       <a
         href={`/posts/${post.frontmatter.slug}`}
