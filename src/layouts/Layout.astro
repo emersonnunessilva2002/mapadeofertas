@@ -6,7 +6,7 @@ import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 
 
-const { title = 'Mapa de Ofertas', description = 'As melhores ofertas aqui'} = Astro.props;
+const { title = 'Mapa de Promos', description = 'As melhores ofertas de eletrônicos aqui'} = Astro.props;
 ---
 
 <!doctype html>
@@ -21,6 +21,8 @@ const { title = 'Mapa de Ofertas', description = 'As melhores ofertas aqui'} = A
         <meta name="robots" content="index, follow" />
 		<title>{title}</title>
 		<ClientRouter />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6656979717042353"
+     crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<Nav />
@@ -32,5 +34,6 @@ const { title = 'Mapa de Ofertas', description = 'As melhores ofertas aqui'} = A
     history.back();
   });
 </script>
+
 	</body>
 </html>

@@ -11,6 +11,6 @@ const posts = import.meta.glob('../../content/posts/*.md', {
 const postsList = Object.entries(posts)
   .map(([_, post]) => post);
 ---
-<Layout title="Mapa de Ofertas | Ofertas" description="Todas as ofertas de produtos Eletrônicos" >
+<Layout title="Mapa de Promos | Ofertas" description="Todas as promoções e Ofertas de produtos eletrônicos no Mapa de Promos" >
     <PostsRecommended posts={postsList} />   
 </Layout>
