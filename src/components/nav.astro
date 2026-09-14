@@ -5,7 +5,7 @@ import { Menu } from "@lucide/astro";
 const pathname = Astro.url.pathname.replace(/\/$/, "");
 ---
 
-<nav class="relative w-full p-4 flex flex-col justify-around items-center border-b-1 border-gray-300 desktop:flex-row">
+<nav class="relative w-full p-4 flex flex-col justify-around items-center border-gray-300 desktop:flex-row border-gray-300 desktop:border-b-1">
 
   <!-- Logo -->
   <div class="flex flex-col justify-center items-center">
@@ -42,7 +42,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       flex-col
       items-end
       gap-4
-      w-full
+      w-[100vw]
       mt-4
       text-xl
       p-4
@@ -57,7 +57,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       desktop:border-t-0
     "
   >
-    <li>
+    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
       <a 
       href="/"
       class="block px-2 py-1"
@@ -67,7 +67,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       </a>
     </li>
 
-    <li>
+    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
       <a 
       href="/posts" 
       class="block px-2 py-1"
@@ -77,7 +77,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       </a>
     </li>
 
-    <li>
+    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
       <a 
       href="/category/smartphones" 
       class="block px-2 py-1"
@@ -86,7 +86,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
         Smartphones
       </a>
     </li>
-    <li>
+    <li class="w-[100vw] flex flex-row justify-end pb-4 border-b-1 border-gray-300 desktop:block desktop:w-auto desktop:border-0 desktop:pb-0">
       <a 
       href="/category/fones" 
       class="block px-2 py-1"
@@ -95,7 +95,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
         Fones
       </a>
     </li>
-    <li>
+    <li class="w-[100vw] flex flex-row justify-end pb-4 border-gray-300 desktop:block desktop:w-auto desktop:pb-0">
       <a 
       href="/category/notebooks" 
       class="block px-2 py-1"
