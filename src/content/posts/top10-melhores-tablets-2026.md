@@ -3,8 +3,7 @@
 
 title: "TOP 10 Melhores Tablets de 2026"
 
-description: "Os melhores Tablets de 2026. 
-Veja a lista que organizamos com as melhores opções de Tablets para você comprar no momento."
+description: "Confira os 10 melhores tablets de 2026, com opções para estudos, trabalho, entretenimento e jogos. Veja as principais características de cada modelo."
 
 date: "2026-09-10"
 

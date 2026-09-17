@@ -1,31 +1,28 @@
 ---
 const { post } = Astro.props;
 ---
+
 <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
-<div class="flex flex-row justify-center items-start border-gray-300 border">
-      
-        <div class="relative h-full w-[50%] overflow-hidden">
-          <img
-            src={post.frontmatter.image}
-            alt={post.frontmatter.title}
-            width={1000}
-            height={800}
-            class="h-full w-full object-contain"
-            fetchpriority="high"
-          />
-        </div>
+  <div class="flex flex-row justify-center items-start border-gray-300 border">
+    <div class="relative h-full w-[50%] overflow-hidden">
+      <img
+        src={post.frontmatter.image}
+        alt={post.frontmatter.title}
+        width={1000}
+        height={800}
+        decoding="async"
+        class="h-full w-full object-contain"
+        fetchpriority="high"
+      />
+    </div>
 
-        <div class="flex flex-col justify-start items-start p-4 h-full text-[0.8rem] mobile2:text-[1rem] mobile3:text-[1.3rem] mobile4:text-[0.8rem] desktop:text-[1.1rem]">
-        
-        <span class="text-green-700"
-      >#{post.frontmatter.categoria}</span>
-        <h2 class="text-ellipsis text-gray-800 font-bold">
-
+    <div
+      class="flex flex-col justify-start items-start p-4 h-full text-[0.8rem] mobile2:text-[1rem] mobile3:text-[1.3rem] mobile4:text-[0.8rem] desktop:text-[1.1rem]"
+    >
+      <span class="text-green-700">#{post.frontmatter.categoria}</span>
+      <h2 class="text-ellipsis text-gray-800 font-bold">
         {post.frontmatter.title}
-      
-    </h2>
-        </div>
-      
-      </div>
-      </a>
-  
+      </h2>
+    </div>
+  </div>
+</a>
