@@ -1,7 +1,7 @@
 ---
 const { post } = Astro.props;
 ---
-
+<a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
 <div class="flex flex-row justify-center items-start border-gray-300 border">
       
         <div class="relative h-full w-[50%] overflow-hidden">
@@ -20,11 +20,12 @@ const { post } = Astro.props;
         <span class="text-green-700"
       >#{post.frontmatter.categoria}</span>
         <h2 class="text-ellipsis text-gray-800 font-bold">
-      <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
+
         {post.frontmatter.title}
-      </a>
+      
     </h2>
         </div>
       
-    </div>
+      </div>
+      </a>
   

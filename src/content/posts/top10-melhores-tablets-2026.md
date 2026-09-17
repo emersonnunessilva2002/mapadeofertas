@@ -32,7 +32,7 @@ Ele tem tela de **8,7 polegadas**, painel TFT, resolução de 1340 × 800 e taxa
 <br>
 Esse tablet é uma boa opção para estudos, trabalho básico, ver vídeos e jogar jogos  leves. O destaque é justamente a combinação de tamanho compacto, preço mais baixo e boa autonomia para sua categoria.  
 <br>
-[**Melhor Preço com 40 % OFF**](https://meli.la/2pAFaqe)  
+<ins>[**--> Melhor Preço com 20 % OFF <--**](https://meli.la/1Uz8M9M)</ins>  
 <br>
 **9. Redmi Pad 2 — 11"**
 ![Redmi Pad 2](https://d1r6yjixh9u0er.cloudfront.net/Custom/Content/Products/13/58/13587_tablet-xiaomi-redmi-pad-2-wi-fi-br-8-8gb-ram-virtual-256gb-prin_z1_638894013980545225.webp)  
@@ -45,8 +45,8 @@ O tablet da Xiaomi vem equipado com o processador **MediaTek Helio G100-Ultra**,
 <br>
 Essa combinação de tela de alta resolução, quatro alto-falantes, bom desempenho e preço relativamente baixo, torna esse dispositivo uma otima opção.  
 <br>
-[**Melhor Preço com 34 % OFF**](https://s.shopee.com.br/7ptIvQCgcK) 
-<br>
+<ins>[-->**Melhor Preço com 34 % OFF**<--](https://s.shopee.com.br/7ptIvQCgcK)</ins>  
+ <br>
 **8. Samsung Galaxy Tab A11+**
 ![Samsung Galaxy Tab A11+](https://images.samsung.com/is/image/samsung/p6pim/br/feature/166794307/br-feature-galaxy-tab-a11-plus-sm-x230-550327133?$FB_TYPE_A_PNG$)  
 <br>
@@ -55,41 +55,31 @@ O **Samsung Galaxy Tab A11+** é praticamente uma evolução do A11 tradicional.
 Possui tela de **11 polegadas**, resolução 1920 × 1200, painel TFT de **90 Hz**, além de bateria de **7.040 mAh**, câmera traseira de 8 MP e frontal de 5 MP. O modelo também oferece recursos de produtividade do ecossistema Galaxy. Em armazenamento, tem **128GB** de memoria interna e **6GB** de memoria ram.  
 <br>
 O grande destaque é o processador, **MediaTek MT8875**, sendo considerado como uma opção muito mais interessante para jogos e tarefas pesadas que o A11 tradicional. Também podem ser citados como destaque os recursos como **Modo DeX**, inteligência artificial e longo período de atualizações.  
+<br>  
+<ins>[**--> Melhor Preço com 40 % OFF <--**](https://meli.la/2pAFaqe)</ins>  
 <br>
 **7. Lenovo Idea Tab**
 ![Lenovo Idea Tab](https://p2-ofp.static.pub//fes/cms/2025/04/10/1h60qbtmvn26skt33vgo49ycuz28rr385951.png?width=800&height=800)
 <br>
-O **Lenovo Idea Tab** é uma das opções mais interessantes para produtividade entre os modelos intermediários do vídeo.  
+O **Lenovo Idea Tab** é uma das opções mais interessantes para produtividade entre os modelos intermediários.  
 <br>
 Ele possui tela de **11 polegadas**, resolução **2.5K (2560 × 1600)** e **90 Hz**. A Lenovo utiliza o **MediaTek Dimensity 6300**, com 128GB de memoria interna e oferece versões com até **8GB** de RAM e armazenamento expansível por microSD. A bateria é de **7.040 mAh** e o aparelho possui quatro alto-falantes com **Dolby Atmos**.  
 <br>
 O diferencial é o seu pacote voltado para produtividade: caneta, capa, suporte a acessórios e recursos de multitarefa. A rejeição da palma também facilita escrever e desenhar na tela.  
 <br>
-## 5. POCO Pad M1 / Redmi Pad 2 Pro
-
-  
-
-Aqui temos dois nomes para praticamente o mesmo projeto: **POCO Pad M1 e Redmi Pad 2 Pro**. O próprio vídeo explica que eles são essencialmente o mesmo tablet, mudando principalmente a marca e o nome.
-
-  
-
-A versão **Redmi Pad 2 Pro** possui uma enorme tela de **12,1 polegadas**, resolução 2.5K e **120 Hz**. O processador é o **Snapdragon 7s Gen 4**, acompanhado de uma bateria de impressionantes **12.000 mAh**.
-
-  
-
-No vídeo, o modelo é destacado justamente pela tela grande, quatro alto-falantes, desempenho para jogos e bateria que pode chegar a aproximadamente dois dias dependendo do uso. Também possui câmeras de 8 MP e recursos de inteligência artificial.
-
-  
-
-**Ideal para:** jogos, filmes, produtividade e quem quer uma tela grande com muita bateria.
-
-  
-  
-  
-
+<ins>[**--> Melhor Preço com 10 % OFF <--**](https://meli.la/2bBKGxQ)</ins>  
+<br>
+**6. POCO Pad M1 / Redmi Pad 2 Pro**
+![POCO Pad M1 / Redmi Pad 2 pro](https://down-br.img.susercontent.com/file/sg-11134201-825b1-mgf7bou65a1aad).  
+<br>
+Aqui temos dois nomes para praticamente o mesmo projeto: **POCO Pad M1 e Redmi Pad 2 Pro**. É essencialmente o mesmo tablet, mas com a marca e o nome diferentes. É um tablet intermediário de alto desempenho focado em consumo de mídia, estudos e produtividade.  
+<br>
+A versão **Redmi Pad 2 Pro** possui uma enorme tela de **12,1 polegadas**, resolução 2.5K e **120 Hz**. De memoria, possui **128 GB** ou **256** GB de armazenamento interno, expansível via cartão microSD de até 2 TB e opções de **6 GB** ou **8 GB** de ram. O processador é o **Snapdragon 7s Gen 4**, acompanhado de uma bateria de impressionantes **12.000 mAh**.  
+<br>
+O modelo se destaca pela tela grande, quatro alto-falantes, desempenho para jogos e bateria que pode chegar a aproximadamente dois dias dependendo do uso. Também possui câmeras de 8 MP e recursos de inteligência artificial.  
+<br>
+<ins>[**--> Melhor Preço com 27 % OFF <--**](https://s.shopee.com.br/LnJCDftHU?share_channel_code=1)</ins>
 ## 4. Xiaomi Pad 7
-
-  
 
 O **Xiaomi Pad 7** é um dos maiores destaques de custo-benefício do vídeo. Mesmo sendo tecnicamente um modelo intermediário, ele aparece na lista porque seu preço pode ficar abaixo de R$ 2.000, enquanto seu hardware se aproxima de categorias superiores.
 
