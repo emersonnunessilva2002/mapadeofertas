@@ -4,7 +4,7 @@ import CardPost from "./card-post.astro";
 const { posts } = Astro.props;
 console.log(posts)
 ---
-<article class="grid grid-cols-1 gap-8 p-8 desktop:grid-cols-2 desktop2:grid-cols-3">
+<article class="grid grid-cols-1 gap-8 p-8  mobile4:grid-cols-2 desktop2:grid-cols-3">
     {posts.map((post) => (
        <CardPost post={post} />
     ))}

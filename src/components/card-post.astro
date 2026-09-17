@@ -18,7 +18,7 @@ const { post } = Astro.props;
         <div class="flex flex-col justify-start items-start p-4 h-full text-[0.8rem] mobile2:text-[1rem] mobile3:text-[1.3rem] mobile4:text-[0.8rem] desktop:text-[1.1rem]">
         
         <span class="text-green-700"
-      >#{post.frontmatter.category}</span>
+      >#{post.frontmatter.categoria}</span>
         <h2 class="text-ellipsis text-gray-800 font-bold">
       <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
         {post.frontmatter.title}

@@ -14,7 +14,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
       class="pointer-events-none h-36 w-auto object-contain desktop:h-24"
     />
 
-    <span class="text-[0.8rem]">As melhores ofertas aqui</span>
+    <span class="text-[0.8rem]">As melhores promoções aqui</span>
   </div>
 
 
@@ -34,7 +34,6 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
 
   <ul
     class="
-      font-semibold
       bg-white
       z-50
       hidden
@@ -59,7 +58,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
     <li >
       <a 
       href="/"
-      class="block px-2 py-1"
+      class="block px-2 py-1 font-semibold"
        class:list={{ "text-green-700": pathname === ""}}
       >    
         Home
@@ -69,36 +68,36 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
     <li>
       <a 
       href="/posts" 
-      class="block px-2 py-1"
+      class="block px-2 py-1 font-semibold"
       class:list={{ "text-green-700": pathname === "/posts"}}
       >  
-        Ofertas
+        Promoções
       </a>
     </li>
 
     <li>
       <a 
-      href="/category/smartphones" 
-      class="block px-2 py-1"
-      class:list={{ "text-green-700": pathname === "/category/smartphones"}}
+      href="/categoria/smartphones" 
+      class="block px-2 py-1 font-semibold"
+      class:list={{ "text-green-700": pathname === "/categoria/smartphones"}}
       >
         Smartphones
       </a>
     </li>
     <li>
       <a 
-      href="/category/fones" 
-      class="block px-2 py-1"
-      class:list={{ "text-green-700": pathname === "/category/fones"}}
+      href="/categoria/fones" 
+      class="block px-2 py-1 font-semibold"
+      class:list={{ "text-green-700": pathname === "/categoria/fones"}}
       >
         Fones
       </a>
     </li>
     <li>
       <a 
-      href="/category/notebooks" 
-      class="block px-2 py-1"
-      class:list={{ "text-green-700": pathname === "/category/notebooks"}}
+      href="/categoria/notebooks" 
+      class="block px-2 py-1 font-semibold"
+      class:list={{ "text-green-700": pathname === "/categoria/notebooks"}}
       >
         Notebooks
       </a>

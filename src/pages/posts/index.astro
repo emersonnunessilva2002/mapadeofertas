@@ -1,6 +1,7 @@
 ---
+import { ChevronRight } from '@lucide/astro';
 import Layout from '../../layouts/Layout.astro';
-import PostsRecommended from '../../components/posts-recommended.astro';
+import PostsList from '../../components/posts-list.astro';
 
 const posts = import.meta.glob('../../content/posts/*.md', {
   eager: true
@@ -10,5 +11,22 @@ const postsList = Object.entries(posts)
   .map(([_, post]) => post);
 ---
 <Layout title="Mapa de Promos | Ofertas" description="Todas as promoções e Ofertas de produtos eletrônicos no Mapa de Promos" >
-    <PostsRecommended posts={postsList} />   
+     <nav class="w-[100vw] m-auto">
+            <ol class="flex flex-wrap items-center justify-center w-full gap-2 text-[1rem] p-8">
+              <li>
+                        <a href="/" class = " text-green-700">Home</a>
+                </li>
+                <ChevronRight size={20} stroke-width={3} class='text-green-700'/>
+               <li>
+                        <p class = " text-green-700">Categoria</p>
+                </li>
+
+                <ChevronRight size={20} stroke-width={3} class='text-green-700'/>
+               
+                 <li>
+                        <p class = " text-green-700">Todas</p>
+                </li>
+            </ol>
+        </nav>
+  <PostsList posts={postsList} />   
 </Layout>
