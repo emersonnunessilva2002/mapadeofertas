@@ -17,5 +17,13 @@ export default defineConfig({
   plugins: [tailwindcss()],
 },
 
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    chunks: {
+        posts: (item) => {
+          if (item.url.includes('/posts/')) {
+            return item;
+          }
+        },
+      },
+  })],
 });
