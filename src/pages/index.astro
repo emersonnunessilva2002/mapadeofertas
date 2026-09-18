@@ -1,25 +1,31 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import MainPost  from '../components/main-post.astro';
-import PostsRecommended from '../components/posts-recommended.astro';
+import Layout from "../layouts/Layout.astro";
+import MainPost from "../components/main-post.astro";
+import PostsRecommended from "../components/posts-recommended.astro";
 const posts = Object.values(
-    import.meta.glob('../content/posts/*.md', {
-
-        eager: true
-    })
+    import.meta.glob("../content/posts/*.md", {
+        eager: true,
+    }),
 );
 
 const post = posts.find(
-  (post) => post.frontmatter.slug === 'top10-melhores-tablets-2026'
+    (post) => post.frontmatter.slug === "top10-melhores-tablets-2026",
 );
 ---
+
 <Layout>
-      <MainPost post={post}/>
-      <PostsRecommended posts={posts}/>
+    <section class="flex flex-col justify-center items-start mx-auto my-20 max-w-[60%] text-lg border-b-1 border-gray-300 p-4">
+  <h1>
+        <strong class="text-green-700">Mapa de Promos</strong> reúne ofertas, descontos e análises
+        de produtos eletrônicos para ajudar você a encontrar boas oportunidades
+        de compra.</h1>
+       
+        <h1>Confira rankings, comparativos e dicas sobre smartphones,
+        notebooks, tablets, fones e outros eletrônicos.</h1>
+    </section>
+      
 
+    <MainPost post={post} />
+     <h2 class=" w-[100vw] text-center border-b-1 border-gray-300 pb-4 text-2xl font-bold">Veja Também</h2>
+    <PostsRecommended posts={posts} />
 </Layout>
-
-
-
-
-

@@ -3,11 +3,9 @@
 const { post } = Astro.props;
 
 ---
-
-
-
 <section
   class="
+  relative
     w-full
     flex
     flex-col
@@ -16,7 +14,7 @@ const { post } = Astro.props;
     bg-white
     m-auto
     mt-10
-    mb-10
+    mb-20
     border-1
     border-gray-300
     desktop:max-w-[800px]
@@ -24,6 +22,7 @@ const { post } = Astro.props;
     desktop:h-[50vh]
     "
 >
+
   <img
     src={post.frontmatter.image}
     width={500}
