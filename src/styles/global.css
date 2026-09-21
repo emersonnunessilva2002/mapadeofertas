@@ -19,3 +19,6 @@ html,
         font-family: 'Lato';
 	}
 
+#post img {
+width: 500px;
+}

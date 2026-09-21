@@ -24,6 +24,11 @@ export default defineConfig({
             return item;
           }
         },
+        category: (item) => {
+          if (item.url.includes('/categoria/')) {
+            return item;
+          }
+        },
       },
   })],
 });

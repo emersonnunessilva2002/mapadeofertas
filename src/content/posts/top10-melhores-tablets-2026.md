@@ -58,7 +58,7 @@ O grande destaque é o processador, **MediaTek MT8875**, sendo considerado como 
 <ins>[**--> Melhor Preço com 40 % OFF <--**](https://meli.la/2pAFaqe)</ins>  
 <br>
 **7. Lenovo Idea Tab**
-![Lenovo Idea Tab](https://p2-ofp.static.pub//fes/cms/2025/04/10/1h60qbtmvn26skt33vgo49ycuz28rr385951.png?width=800&height=800)
+![Lenovo Idea Tab](https://p2-ofp.static.pub//fes/cms/2025/04/10/1h60qbtmvn26skt33vgo49ycuz28rr385951.png?width=500&height=500)
 <br>
 O **Lenovo Idea Tab** é uma das opções mais interessantes para produtividade entre os modelos intermediários.  
 <br>
@@ -68,7 +68,7 @@ O diferencial é o seu pacote voltado para produtividade: caneta, capa, suporte 
 <br>
 <ins>[**--> Melhor Preço com 10 % OFF <--**](https://meli.la/2bBKGxQ)</ins>  
 <br>
-**6. POCO Pad M1 / Redmi Pad 2 Pro**
+**6. POCO Pad M1 / Redmi Pad 2 Pro**  
 ![POCO Pad M1 / Redmi Pad 2 pro](https://down-br.img.susercontent.com/file/sg-11134201-825b1-mgf7bou65a1aad).  
 <br>
 Aqui temos dois nomes para praticamente o mesmo projeto: **POCO Pad M1 e Redmi Pad 2 Pro**. É essencialmente o mesmo tablet, mas com a marca e o nome diferentes. É um tablet intermediário de alto desempenho focado em consumo de mídia, estudos e produtividade.  
@@ -77,28 +77,19 @@ A versão **Redmi Pad 2 Pro** possui uma enorme tela de **12,1 polegadas**, reso
 <br>
 O modelo se destaca pela tela grande, quatro alto-falantes, desempenho para jogos e bateria que pode chegar a aproximadamente dois dias dependendo do uso. Também possui câmeras de 8 MP e recursos de inteligência artificial.  
 <br>
-<ins>[**--> Melhor Preço com 27 % OFF <--**](https://s.shopee.com.br/LnJCDftHU?share_channel_code=1)</ins>
-## 4. Xiaomi Pad 7
-
-O **Xiaomi Pad 7** é um dos maiores destaques de custo-benefício do vídeo. Mesmo sendo tecnicamente um modelo intermediário, ele aparece na lista porque seu preço pode ficar abaixo de R$ 2.000, enquanto seu hardware se aproxima de categorias superiores.
-
-  
-
-A tela tem **11,2 polegadas**, resolução **3.2K**, proporção 3:2 e impressionantes **144 Hz**. O processador é o **Snapdragon 7+ Gen 3**, acompanhado de memória LPDDR5X e armazenamento UFS 4.0 em algumas versões.
-
-  
-
-O vídeo destaca ainda quatro alto-falantes, Smart Connector, suporte magnético para caneta, rejeição da palma, recursos de inteligência artificial e desempenho de aproximadamente 1,3 milhão de pontos no AnTuTu.
-
-  
-
-**Ideal para:** jogos, edição, estudos e produtividade com excelente tela.
-
-  
-  
-  
-
-## 3. Samsung Galaxy Tab S10 FE / S10 FE+
+<ins>[**--> Melhor Preço com 27 % OFF <--**](https://s.shopee.com.br/LnJCDftHU?share_channel_code=1)</ins>  
+<br>
+**5. Xiaomi Pad 7**  
+  <br>
+![Xiaomi Pad 7](https://i02.appmifile.com/603_operator_sg/28/02/2025/3a1977bd13ab44d01273c6512fab01df.png?f=webp).  
+<br>
+O **Xiaomi Pad 7** é um dos maiores destaques de custo-benefício do mercado. Mesmo sendo tecnicamente um modelo intermediário, ele aparece na lista porque seu preço pode ficar abaixo de R$ 2.000, enquanto seu hardware se aproxima de categorias superiores.  
+<br>
+A tela tem **11,2 polegadas**, resolução **3.2K**, proporção 3:2 e impressionantes **144 Hz**. O processador é o **Snapdragon 7+ Gen 3**, acompanhado de memória LPDDR5X e armazenamento UFS 4.0 em algumas versões. Enfatizamos a boa memória interna de **256** GB e **12GB** de Ram.   
+<br>
+Destacamos ainda quatro alto-falantes, Smart Connector, suporte magnético para caneta, rejeição da palma, recursos de inteligência artificial e desempenho de aproximadamente 1,3 milhão de pontos no AnTuTu.  
+<br>
+**3. Samsung Galaxy Tab S10 FE / S10 FE+**
 
   
 
