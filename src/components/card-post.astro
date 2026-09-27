@@ -3,7 +3,7 @@ const { post } = Astro.props;
 ---
 
 <a href={`/posts/${post.frontmatter.slug}`} data-astro-prefetch="tap">
-  <div class="flex flex-row justify-center items-start border-gray-300 border">
+  <div class=" h-[12rem] flex flex-row justify-center items-start border-gray-300 border">
     <div class="relative h-full w-[50%] overflow-hidden">
       <img
         src={post.frontmatter.image}

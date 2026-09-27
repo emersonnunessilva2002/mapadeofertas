@@ -103,6 +103,15 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
         Notebooks
       </a>
     </li>
+     <li>
+      <a 
+      href="/categoria/tvs" 
+      class="block px-2 py-1 font-semibold"
+      class:list={{ "text-green-700": pathname === "/categoria/tvs"}}
+      >
+        Televisões
+      </a>
+    </li>
   </ul>
 
   

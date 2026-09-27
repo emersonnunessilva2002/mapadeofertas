@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 
 
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mapadepromos.space',
@@ -18,17 +19,5 @@ export default defineConfig({
 },
 
   integrations: [sitemap({
-    chunks: {
-        posts: (item) => {
-          if (item.url.includes('/posts/')) {
-            return item;
-          }
-        },
-        category: (item) => {
-          if (item.url.includes('/categoria/')) {
-            return item;
-          }
-        },
-      },
   })],
 });

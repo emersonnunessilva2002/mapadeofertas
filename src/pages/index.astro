@@ -2,6 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import MainPost from "../components/main-post.astro";
 import PostsRecommended from "../components/posts-recommended.astro";
+import { supabase } from '../db/supabase';
+
+
 const posts = Object.values(
     import.meta.glob("../content/posts/*.md", {
         eager: true,
@@ -11,6 +14,7 @@ const posts = Object.values(
 const post = posts.find(
     (post) => post.frontmatter.slug === "top10-melhores-tablets-2026",
 );
+
 ---
 
 <Layout>
